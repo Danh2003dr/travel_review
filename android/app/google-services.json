@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "122921125037",
+    "project_id": "flutter-travel-review",
+    "storage_bucket": "flutter-travel-review.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122921125037:android:3b0123ee60d40f5ff33224",
+        "android_client_info": {
+          "package_name": "com.example.flutter_travel_review"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122921125037-ue00pt8jf0jao5557e81v6ij722uv80k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_travel_review",
+            "certificate_hash": "2fc7a64c0703cc30ea1fe071c39e159d5fe7f550"
+          }
+        },
+        {
+          "client_id": "122921125037-91nsn2f2qij7mebcrn6go6p834p1vobd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtBX6e2vBZ8R1dsKxxqxyZoNwYbqNHsAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122921125037-91nsn2f2qij7mebcrn6go6p834p1vobd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "122921125037-ji85sffhiuggjvcrfkpj7etb71o97m0j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterTravelReview"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
