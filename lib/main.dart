@@ -155,12 +155,12 @@ class _AppShellState extends State<AppShell> {
   int _index = 0;
 
   // Danh sách 5 màn hình chính
-  final _pages = const [
-    HomeScreenModern(),
-    ExploreScreen(),
-    SearchScreenModern(initKeyword: '', initType: ''),
-    MapScreen(),
-    ProfileScreen(),
+  final _pages = [ 
+    const HomeScreenModern(), // Giữ const cho constructor nếu có thể
+    const ExploreScreen(),    // Giữ const cho constructor nếu có thể
+    const SearchScreenModern(initKeyword: '', initType: ''), // Giữ const cho constructor nếu có thể
+    const MapScreen(),        // THÊM const cho constructor (Nếu nó là StatelessWidget/StatefulWidget)
+    const ProfileScreen(),    // THÊM const cho constructor (Nếu nó là StatelessWidget/StatefulWidget)
   ];
 
   @override
